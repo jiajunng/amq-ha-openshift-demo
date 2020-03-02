@@ -63,4 +63,4 @@ The preceding commands create a queue called TEST on each broker and add 1000 me
 
 - You see that the Pod ex-aao-ss-1 starts to shut down, then go to the AMQ Broker console, you will now see 2000 messages in the queue, TEST:
 
-![Image of message migration](<img width="1440" alt="Screenshot 2020-03-02 at 7 04 27 PM" src="https://user-images.githubusercontent.com/25560159/75670949-adedc480-5cb8-11ea-9fa0-8e9a78513e55.png">)
+![Image of message migration](https://user-images.githubusercontent.com/25560159/75670949-adedc480-5cb8-11ea-9fa0-8e9a78513e55.png)
