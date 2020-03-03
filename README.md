@@ -23,9 +23,6 @@ spec:
       needClientAuth: false
       port: 5671
       protocols: amqp
-      sslEnabled: true
-      sslSecret: ex-aao-amqp-secret
-      verifyHost: false
   deploymentPlan:
     image: 'registry.redhat.io/amq7/amq-broker:7.5'
     messageMigration: true
@@ -33,7 +30,7 @@ spec:
     size: 2
 ```
 
-In the ActiveMQArtemises broker custom resource (CR), **messageMigration** and **persistenceEnabled** need to be set to true. For more information on the configuration, visit [here](https://github.com/rh-messaging/activemq-artemis-operator/blob/0.9.1/deploy/crds/broker_v2alpha1_activemqartemis_crd.yaml#L80-L82)
+In the ActiveMQArtemises broker custom resource (CR), **messageMigration** and **persistenceEnabled** need to be set to true. For more information on the configuration, visit [here](https://github.com/rh-messaging/activemq-artemis-operator/blob/0.9.1/deploy/crds/broker_v2alpha1_activemqartemis_crd.yaml#L80-L82).
 
 - There should be two broker pods:
 
