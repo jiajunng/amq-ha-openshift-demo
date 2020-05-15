@@ -1,5 +1,5 @@
 # amq-ha-openshift-demo
-With AMQ Broker on OpenShift, highly available allows the maintaining the availability of brokers and the integrity of the messaging data if a broker fails. This demo includes the deployment the of multiple instance AMQ Broker through an operator on OpenShift with each individual broker pod writing its message data to a persistent storage; to one broker pod goes offline and message migration happens.
+With AMQ Broker on OpenShift, highly available allows the maintaining the availability of brokers and the integrity of the messaging data if a broker fails. This demo includes the deployment of multiple instances of AMQ Broker through an operator on OpenShift with each individual broker pod writing its message data to a persistent storage; to one broker pod goes offline and message migration happens.
 
 ## Prerequisites/Requirements
 - Up and running OpenShift (Tested on v4.3)
